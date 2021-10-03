@@ -12,11 +12,77 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     
     <title>Responsive Bottom Nav</title>
-</head>
+</head> 
 <body>
+    <!-- =============== HEADER ================ -->
     <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">Ev</a>
 
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#Home" class="nav__link active-link'">
+                            <i class='bx bxs-home nav__icon' ></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bxs-user nav__icon'></i>
+                            <span class="nav__name">About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-code-alt nav__icon'></i>
+                            <span class="nav__name">Skills</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class='bx bxs-briefcase  nav__icon'></i>
+                            <span class="nav__name">Portfolio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contactme" class="nav__link">
+                            <i class='bx bx-message-square-detail nav__icon'></i>
+                            <span class="nav__name">Contact Me</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <img src="./assets/img/me_backpack.jpg" alt="woman wearing a gray hat and glasses, smiling" class="nav__img">
+        </nav>
     </header>
+    <main>
+                <!-- ============================== HOME ========================== -->
+        <section class="container section section__height" id="home">
+            <h2 class="section__title">HOME</h2>
+
+        </section>
+                <!-- ============================== ABOUT ========================== -->
+        <section class="container section section__height" id="about">
+            <h2 class="section__title">ABOUT</h2>
+        </section>
+                <!-- ============================== SKILLS ========================== -->
+        <section class="container section section__height" id="skills">
+            <h2 class="section__title">SKILLS</h2>
+        </section>
+                <!-- ============================== PORTFOLIO ========================== -->
+        <section class="container section section__height" id="portfolio">
+            <h2 class="section__title">PORTFOLIO</h2>
+        </section>
+                <!-- ============================== CONTACT ========================== -->
+        <section class="container section section__height" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+        </section>
+    </main>
     
     <!-- Main JS -->
     <script src="./assets/js/main.js"></script>
